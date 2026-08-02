@@ -1,0 +1,428 @@
+PatientID,Age,Gender,Department,Diagnosis,LengthOfStay,PriorAdmissions,ChronicCondition,MedicationCount,DischargeDisposition,FollowUpScheduled,Readmitted_30Days
+2001,22,M,Cardiology,Heart Failure,1,0,Yes,2.0,Home,No,No
+2002,66,Male,Cardiology,Coronary Artery Disease,5,0,No,8.0,Rehab Facility,Yes,No
+2003,88,Male,General Medicine,Hypertension,9,4,Yes,13.0,Home,Yes,Yes
+2004,23,Female,General Medicine,Pneumonia,12,3,No,1.0,Home,No,No
+2005,71,M,General Medicine,Diabetes Complication,3,3,No,12.0,Home,Yes,No
+2006,22,Male,Orthopedics,Knee Replacement,3,1,No,2.0,Rehab Facility,No,No
+2007,85,Female,Neurology,Migraine,2,0,No,12.0,Home,No,No
+2008,47,Female,Cardiology,Arrhythmia,2,1,Yes,9.0,Home Health Care,Yes,No
+2009,43,Male,General Medicine,Diabetes Complication,4,1,No,10.0,Home Health Care,No,No
+2010,25,Male,Orthopedics,Knee Replacement,9,1,No,8.0,Home,Yes,No
+2011,49,Male,Cardiology,Coronary Artery Disease,10,3,No,2.0,Home Health Care,Yes,No
+2012,57,Female,Orthopedics,Spinal Surgery,1,2,Yes,14.0,Home,No,Yes
+2013,46,Female,General Medicine,Pneumonia,4,1,Yes,6.0,Home,Yes,No
+2014,40,Male,Orthopedics,Hip Fracture,2,0,Yes,6.0,Home,No,No
+2015,57,Female,General Medicine,Pneumonia,10,1,Yes,10.0,Home,Yes,No
+2016,72,Female,Cardiology,Coronary Artery Disease,7,1,No,2.0,Home Health Care,No,No
+2017,21,Male,  cardiology ,Pneumonia,9,3,No,10.0,Rehab Facility,Yes,No
+2018,71,Female,Cardiology,Coronary Artery Disease,13,0,Yes,10.0,Skilled Nursing Facility,No,Yes
+2019,52,Female,Cardiology,Arrhythmia,13,2,No,2.0,Rehab Facility,Yes,No
+2020,20,Male,Orthopedics,Hip Fracture,1,2,Yes,13.0,Home,No,No
+2021,25,Male,Neurology,Migraine,4,1,No,,Home Health Care,No,No
+2022,28,Female,Neurology,Seizure Disorder,2,1,No,7.0,Rehab Facility,No,No
+2023,18,Female,Cardiology,Arrhythmia,13,7,No,4.0,Home,No,Yes
+2024,26,Male,General Medicine,Hypertension,4,1,No,13.0,Home,Yes,No
+2025,51,Male,Orthopedics,Hip Fracture,5,3,No,1.0,Home Health Care,No,Yes
+2026,44,Female,Orthopedics,Knee Replacement,10,2,No,10.0,Home Health Care,Yes,No
+2027,54,Female,Oncology,Palliative Care,9,0,No,9.0,Skilled Nursing Facility,Yes,No
+2028,28,Male,Neurology,Seizure Disorder,5,3,Yes,14.0,Home,Yes,No
+2029,77,Female,Cardiology,Coronary Artery Disease,8,1,No,9.0,Home Health Care,Yes,No
+2030,62,Male,Neurology,Migraine,5,3,Yes,13.0,Home,Yes,No
+2031,27,Female,Oncology,Post-Surgical Care,6,2,Yes,10.0,Home,No,Yes
+2032,66,Female,Oncology,Palliative Care,12,2,No,14.0,Home Health Care,No,No
+2033,32,Female,Orthopedics,Knee Replacement,5,5,Yes,,Home,Yes,Yes
+2034,85,Female,General Medicine,Diabetes Complication,10,0,Yes,10.0,Rehab Facility,Yes,No
+2035,43,Male,Orthopedics,Knee Replacement,12,0,No,1.0,Home,Yes,No
+2036,68,Male,General Medicine,Hypertension,14,0,Yes,9.0,Home Health Care,No,Yes
+2037,63,Female,Oncology,Chemotherapy Complication,1,2,No,3.0,Skilled Nursing Facility,Yes,No
+2038,36,Female,Cardiology,Heart Failure,7,0,Yes,3.0,Skilled Nursing Facility,Yes,No
+2039,30,Male,General Medicine,Pneumonia,2,1,No,9.0,Home Health Care,Yes,No
+2040,60,Male,Orthopedics,Knee Replacement,13,2,Yes,4.0,Home,No,Yes
+2041,45,Male,Cardiology,Coronary Artery Disease,1,1,Yes,2.0,Home Health Care,Yes,No
+2042,83,Female,Oncology,Chemotherapy Complication,3,0,No,13.0,Home,Yes,No
+2043,30,Male,Neurology,Seizure Disorder,14,2,No,3.0,Home Health Care,No,Yes
+2044,28,Male,Cardiology,Heart Failure,11,1,No,10.0,Rehab Facility,No,No
+2045,56,Female,Cardiology,Arrhythmia,8,1,No,13.0,Home Health Care,Yes,No
+2046,78,Female,Oncology,Palliative Care,10,1,Yes,11.0,Home Health Care,Yes,No
+2047,76,Male,Orthopedics,Hip Fracture,1,2,No,10.0,Home,No,No
+2048,68,Female,Neurology,Seizure Disorder,13,1,No,5.0,Home Health Care,Yes,No
+2049,59,Female,General Medicine,Diabetes Complication,11,2,No,9.0,Home,Yes,No
+2050,49,Male,Neurology,Stroke,8,2,No,14.0,Home Health Care,Yes,No
+2051,24,Female,Neurology,Stroke,12,0,No,13.0,Rehab Facility,Yes,No
+2052,49,Male,General Medicine,Diabetes Complication,6,0,Yes,11.0,Home,Yes,No
+2053,53,Male,General Medicine,Hypertension,1,0,Yes,9.0,Home,Yes,No
+2054,19,Female,Orthopedics,Knee Replacement,4,0,No,13.0,Home Health Care,Yes,No
+2055,28,Male,Orthopedics,Hip Fracture,9,1,No,13.0,Home,Yes,No
+2056,41,Female,Orthopedics,Knee Replacement,1,2,Yes,6.0,Home Health Care,Yes,No
+2057,74,Female,Neurology,Stroke,4,1,No,13.0,Home,Yes,No
+2058,25,Female,Cardiology,Arrhythmia,9,1,No,2.0,Home,No,No
+2059,61,Female,Orthopedics,Hip Fracture,6,1,No,8.0,Home,Yes,No
+2060,34,Female,Oncology,Post-Surgical Care,1,0,Yes,12.0,Home,Yes,No
+2061,47,Male,Cardiology,Coronary Artery Disease,7,1,No,6.0,Rehab Facility,No,No
+2062,60,Female,Orthopedics,Spinal Surgery,14,1,No,9.0,Home,Yes,No
+2063,79,Female,General Medicine,Pneumonia,6,0,Yes,6.0,Home,Yes,No
+2064,84,Female,Oncology,Palliative Care,13,1,Yes,1.0,Home,Yes,No
+2065,73,Female,Orthopedics,Knee Replacement,3,1,No,10.0,Home,No,No
+2066,40,Male,Cardiology,Heart Failure,11,2,Yes,4.0,Home,Yes,Yes
+2067,29,Male,Cardiology,Coronary Artery Disease,6,1,No,11.0,Rehab Facility,Yes,No
+2068,67,Female,General Medicine,Hypertension,8,2,No,13.0,Home,Yes,No
+2069,89,M,Cardiology,Arrhythmia,5,2,Yes,11.0,Home,No,Yes
+2070,21,Male,General Medicine,Pneumonia,4,3,Yes,11.0,Home,Yes,No
+2071,25,Male,Orthopedics,Spinal Surgery,2,2,No,14.0,Home,Yes,No
+2072,73,Female,Orthopedics,Spinal Surgery,4,1,No,2.0,Skilled Nursing Facility,No,No
+2073,72,Male,Orthopedics,Hip Fracture,4,1,No,4.0,Home Health Care,Yes,No
+2074,25,Male,General Medicine,Hypertension,12,1,No,6.0,Home,Yes,No
+2075,33,Male,Cardiology,Heart Failure,7,0,Yes,12.0,Home,Yes,No
+2076,50,Male,Orthopedics,Hip Fracture,8,2,Yes,10.0,Home Health Care,No,Yes
+2077,44,Male,Orthopedics,Hip Fracture,14,1,No,9.0,Home,Yes,No
+2078,51,Female,Orthopedics,Knee Replacement,12,1,Yes,14.0,Skilled Nursing Facility,No,Yes
+2079,73,Male,Orthopedics,Knee Replacement,5,0,No,6.0,Home,Yes,No
+2080,52,Female,Oncology,Palliative Care,13,3,No,5.0,Home,Yes,No
+2081,28,Female,Neurology,Stroke,8,1,Yes,2.0,Rehab Facility,No,Yes
+2082,31,Female,Neurology,Migraine,6,3,Yes,5.0,Skilled Nursing Facility,No,Yes
+2083,53,Male,General Medicine,Diabetes Complication,9,2,No,8.0,Skilled Nursing Facility,Yes,No
+2084,62,Male,Oncology,Post-Surgical Care,6,0,No,7.0,Home,No,No
+2085,20,Female,Cardiology,Arrhythmia,6,4,No,,Home,No,No
+2086,66,Female,General Medicine,Diabetes Complication,2,2,No,12.0,Home,Yes,No
+2087,63,Male,General Medicine,Hypertension,5,1,Yes,7.0,Home Health Care,Yes,No
+2088,75,Male,Oncology,Chemotherapy Complication,2,2,No,1.0,Skilled Nursing Facility,Yes,No
+2089,36,Male,General Medicine,Hypertension,12,1,No,4.0,Skilled Nursing Facility,No,No
+2090,68,Female,Neurology,Migraine,12,3,Yes,8.0,Home,Yes,Yes
+2091,41,Male,Neurology,Seizure Disorder,12,2,Yes,10.0,Skilled Nursing Facility,Yes,No
+2092,70,Female,Cardiology,Heart Failure,2,1,No,13.0,Skilled Nursing Facility,Yes,No
+2093,39,Male,Orthopedics,Knee Replacement,9,0,Yes,3.0,Home,Yes,No
+2094,29,Female,General Medicine,Diabetes Complication,6,0,No,6.0,Home Health Care,No,No
+2095,25,Male,Neurology,Migraine,6,2,Yes,3.0,Home Health Care,Yes,No
+2096,61,Female,General Medicine,Hypertension,13,0,No,1.0,Rehab Facility,Yes,No
+2097,36,Male,Cardiology,Heart Failure,5,2,No,12.0,Home,No,No
+2098,53,Male,Cardiology,Coronary Artery Disease,1,4,No,4.0,Home,Yes,No
+2099,52,Male,Orthopedics,Spinal Surgery,11,0,No,2.0,Home,Yes,No
+2100,85,Female,Neurology,Seizure Disorder,10,2,Yes,6.0,Home,No,Yes
+2101,81,Male,General Medicine,Hypertension,5,1,No,11.0,Home Health Care,No,No
+2102,21,Male,General Medicine,Pneumonia,2,1,No,6.0,Home,No,No
+2103,46,Female,Oncology,Post-Surgical Care,3,2,Yes,3.0,Home Health Care,Yes,No
+2104,66,Female,Orthopedics,Knee Replacement,6,1,No,4.0,Home,Yes,No
+2105,26,Male,General Medicine,Diabetes Complication,5,0,Yes,11.0,Home Health Care,Yes,No
+2106,21,Male,Neurology,Seizure Disorder,8,0,Yes,1.0,Home Health Care,Yes,No
+2107,23,Female,Oncology,Post-Surgical Care,1,0,Yes,10.0,Home,No,No
+2108,28,Female,Neurology,Migraine,14,2,No,8.0,Skilled Nursing Facility,No,No
+2109,86,Female,Orthopedics,Hip Fracture,8,0,No,5.0,Home,Yes,No
+2110,77,Male,Orthopedics,Spinal Surgery,9,1,Yes,8.0,Home,Yes,Yes
+2111,65,Male,Oncology,Post-Surgical Care,8,0,No,4.0,Home,Yes,No
+2112,88,Male,Orthopedics,Hip Fracture,4,1,No,5.0,Home Health Care,No,No
+2113,36,Male,Oncology,Post-Surgical Care,7,1,Yes,6.0,Home Health Care,Yes,No
+2114,69,Female,Cardiology,Coronary Artery Disease,8,1,No,8.0,Home,Yes,No
+2115,48,Female,Oncology,Post-Surgical Care,1,0,No,2.0,Home,No,No
+2116,84,Female,Cardiology,Heart Failure,3,0,Yes,3.0,Rehab Facility,No,Yes
+2117,49,Male,Cardiology,Heart Failure,4,1,No,2.0,Home,Yes,No
+2118,72,Female,Oncology,Chemotherapy Complication,9,1,No,11.0,Home,No,No
+2119,52,Female,Cardiology,Coronary Artery Disease,4,2,No,14.0,Home Health Care,No,Yes
+2120,52,Male,Orthopedics,Spinal Surgery,12,4,No,3.0,Home,Yes,No
+2121,38,Female,Neurology,Seizure Disorder,7,1,No,4.0,Skilled Nursing Facility,Yes,No
+2122,45,Male,Cardiology,Coronary Artery Disease,3,1,Yes,6.0,Home Health Care,No,Yes
+2123,77,Female,General Medicine,Pneumonia,13,2,Yes,7.0,Rehab Facility,Yes,Yes
+2124,29,Male,Cardiology,Arrhythmia,7,2,No,9.0,Skilled Nursing Facility,Yes,No
+2125,54,Male,Oncology,Chemotherapy Complication,10,2,Yes,4.0,Home,No,Yes
+2126,26,Male,Orthopedics,Spinal Surgery,10,0,Yes,7.0,Home,No,No
+2127,48,Female,Cardiology,Arrhythmia,1,1,No,10.0,Home,Yes,No
+2128,49,Female,Cardiology,Arrhythmia,12,0,No,7.0,Home Health Care,Yes,No
+2129,52,Female,Cardiology,Coronary Artery Disease,14,3,No,1.0,Home,Yes,No
+2130,30,Male,General Medicine,Pneumonia,12,1,No,10.0,Home,Yes,No
+2131,83,Female,General Medicine,Hypertension,6,1,No,6.0,Home,Yes,No
+2132,20,Male,Cardiology,Arrhythmia,4,4,No,13.0,Home,Yes,No
+2133,43,Female,Oncology,Palliative Care,6,2,Yes,11.0,Home,Yes,Yes
+2134,59,Male,Orthopedics,Spinal Surgery,4,1,No,7.0,Home Health Care,Yes,No
+2135,21,Female,Oncology,Post-Surgical Care,9,1,Yes,7.0,Home Health Care,Yes,No
+2136,52,Male,General Medicine,Diabetes Complication,4,1,Yes,1.0,Home,Yes,No
+2137,60,Female,Cardiology,Heart Failure,12,4,No,10.0,Rehab Facility,Yes,No
+2138,18,Male,Cardiology,Heart Failure,10,0,No,6.0,Home,Yes,No
+2139,35,Male,Neurology,Seizure Disorder,8,1,No,2.0,Rehab Facility,Yes,No
+2140,21,Female,Orthopedics,Hip Fracture,3,0,No,11.0,Home,No,No
+2141,32,Female,Orthopedics,Knee Replacement,12,1,No,3.0,Skilled Nursing Facility,Yes,No
+2142,23,Female,General Medicine,Pneumonia,3,0,Yes,12.0,Skilled Nursing Facility,Yes,No
+2143,27,Male,Neurology,Stroke,8,1,No,6.0,Skilled Nursing Facility,Yes,No
+2144,21,Male,General Medicine,Diabetes Complication,7,1,No,3.0,Skilled Nursing Facility,Yes,No
+2145,29,Female,General Medicine,Diabetes Complication,12,1,Yes,12.0,Home Health Care,Yes,Yes
+2146,63,Female,Oncology,Palliative Care,14,4,No,12.0,Home,Yes,No
+2147,53,Female,Orthopedics,Spinal Surgery,9,1,No,7.0,Home,Yes,No
+2148,28,Female,General Medicine,Diabetes Complication,8,1,No,2.0,Home Health Care,Yes,No
+2149,49,Male,Orthopedics,Knee Replacement,3,1,No,3.0,Home,Yes,No
+2150,19,Female,Cardiology,Heart Failure,12,1,No,10.0,Rehab Facility,Yes,No
+2151,61,Male,General Medicine,Pneumonia,11,1,No,3.0,Home,Yes,No
+2152,48,Male,Cardiology,Heart Failure,2,0,No,7.0,Skilled Nursing Facility,Yes,No
+2153,82,Female,Neurology,Migraine,11,1,Yes,9.0,Home,No,Yes
+2154,84,Female,Neurology,Migraine,13,0,Yes,3.0,Rehab Facility,Yes,No
+2155,69,Female,General Medicine,Pneumonia,8,1,No,2.0,Home,Yes,No
+2156,89,M,Oncology,Post-Surgical Care,2,1,Yes,10.0,Home,Yes,No
+2157,41,Male,Neurology,Seizure Disorder,14,0,Yes,7.0,Skilled Nursing Facility,Yes,No
+2158,68,Male,Orthopedics,Knee Replacement,10,0,No,5.0,Rehab Facility,No,No
+2159,66,Female,General Medicine,Pneumonia,2,0,Yes,1.0,Skilled Nursing Facility,No,Yes
+2160,71,Male,General Medicine,Diabetes Complication,5,1,No,4.0,Home,Yes,No
+2161,19,Female,Neurology,Seizure Disorder,12,1,No,8.0,Home,Yes,No
+2162,86,Male,Orthopedics,Knee Replacement,11,1,No,10.0,Home,Yes,No
+2163,66,Female,General Medicine,Pneumonia,3,0,No,12.0,Rehab Facility,Yes,No
+2164,45,Male,General Medicine,Hypertension,6,1,No,12.0,Rehab Facility,Yes,No
+2165,81,Male,Oncology,Palliative Care,8,1,No,6.0,Skilled Nursing Facility,No,No
+2166,82,Male,General Medicine,Diabetes Complication,10,1,Yes,7.0,Home,Yes,No
+2167,23,Female,Oncology,Post-Surgical Care,13,0,No,12.0,Home,Yes,No
+2168,58,Female,General Medicine,Hypertension,5,1,Yes,13.0,Rehab Facility,No,Yes
+2169,47,Male,Orthopedics,Hip Fracture,4,0,No,5.0,Home,Yes,No
+2170,35,Female,General Medicine,Hypertension,10,1,No,8.0,Home Health Care,No,No
+2171,24,Female,Neurology,Migraine,1,1,No,6.0,Home Health Care,Yes,No
+2172,42,Female,Cardiology,Coronary Artery Disease,13,3,Yes,12.0,Home,Yes,Yes
+2173,89,Female,Neurology,Stroke,2,2,No,7.0,Skilled Nursing Facility,No,No
+2174,76,Male,Cardiology,Coronary Artery Disease,13,1,No,9.0,Home,No,Yes
+2175,83,Female,Cardiology,Arrhythmia,11,0,Yes,3.0,Home,Yes,No
+2176,23,Female,Orthopedics,Spinal Surgery,5,6,Yes,12.0,Home,Yes,Yes
+2177,37,Male,Cardiology,Coronary Artery Disease,10,2,No,3.0,Home,Yes,No
+2178,83,Female,Oncology,Palliative Care,5,0,Yes,8.0,Home,Yes,No
+2179,36,Female,Orthopedics,Spinal Surgery,11,0,No,1.0,Home Health Care,Yes,No
+2180,62,Male,General Medicine,Pneumonia,11,1,Yes,6.0,Home Health Care,No,Yes
+2181,39,Male,General Medicine,Pneumonia,1,3,Yes,13.0,Skilled Nursing Facility,No,Yes
+2182,57,Female,Cardiology,Arrhythmia,9,2,No,5.0,Skilled Nursing Facility,Yes,No
+2183,88,Male,Orthopedics,Hip Fracture,6,0,No,4.0,Home,Yes,No
+2184,45,Female,General Medicine,Hypertension,14,3,No,13.0,Home,Yes,Yes
+2185,49,Male,General Medicine,Diabetes Complication,6,0,No,10.0,Home,Yes,No
+2186,81,Female,Neurology,Stroke,1,2,No,4.0,Home,Yes,No
+2187,83,M,Orthopedics,Spinal Surgery,11,0,No,4.0,Home,Yes,No
+2188,25,Male,Oncology,Chemotherapy Complication,3,2,No,6.0,Home Health Care,No,No
+2189,88,Male,Oncology,Palliative Care,3,1,No,1.0,Rehab Facility,No,No
+2190,54,Female,Cardiology,Coronary Artery Disease,13,1,Yes,5.0,Home,Yes,No
+2191,60,Female,Cardiology,Arrhythmia,13,1,No,6.0,Home,Yes,No
+2192,25,Male,Cardiology,Heart Failure,3,1,Yes,8.0,Skilled Nursing Facility,Yes,No
+2193,36,Female,General Medicine,Pneumonia,6,1,Yes,,Home Health Care,No,No
+2194,78,Male,Cardiology,Arrhythmia,11,3,No,,Home Health Care,Yes,No
+2195,48,Female,Orthopedics,Spinal Surgery,4,0,No,12.0,Rehab Facility,Yes,No
+2196,23,Female,Cardiology,Coronary Artery Disease,10,0,Yes,1.0,Skilled Nursing Facility,Yes,No
+2197,76,Female,Orthopedics,Hip Fracture,12,1,No,1.0,Skilled Nursing Facility,Yes,No
+2198,37,Female,Cardiology,Coronary Artery Disease,9,0,No,4.0,Home Health Care,Yes,No
+2199,52,Female,Neurology,Stroke,5,3,Yes,12.0,Home Health Care,Yes,No
+2200,54,Female,Orthopedics,Knee Replacement,7,1,No,4.0,Skilled Nursing Facility,Yes,No
+2201,57,Male,Orthopedics,Hip Fracture,7,0,No,1.0,Home,Yes,No
+2202,22,Female,General Medicine,Diabetes Complication,2,0,No,9.0,Rehab Facility,Yes,No
+2203,19,Male,Orthopedics,Knee Replacement,13,0,Yes,4.0,Home,No,Yes
+2204,53,Male,Orthopedics,Knee Replacement,3,0,No,5.0,Home,Yes,No
+2205,54,Female,Cardiology,Arrhythmia,14,1,Yes,12.0,Skilled Nursing Facility,No,Yes
+2206,82,M,Orthopedics,Knee Replacement,5,2,Yes,12.0,Skilled Nursing Facility,No,Yes
+2207,32,Male,General Medicine,Diabetes Complication,2,0,No,4.0,Home,No,No
+2208,48,Male,General Medicine,Diabetes Complication,4,1,No,6.0,Skilled Nursing Facility,No,No
+2209,24,Female,Cardiology,Coronary Artery Disease,10,0,Yes,13.0,Home,No,No
+2210,69,Female,General Medicine,Pneumonia,12,0,Yes,14.0,Home Health Care,No,Yes
+2211,89,Male,Cardiology,Heart Failure,7,2,No,1.0,Home,No,No
+2212,45,Male,Oncology,Post-Surgical Care,12,0,No,5.0,Home,No,No
+2213,20,Female,Cardiology,Heart Failure,14,0,No,10.0,Home,Yes,No
+2214,79,M,General Medicine,Diabetes Complication,13,1,Yes,13.0,Home Health Care,Yes,No
+2215,26,Male,Oncology,Post-Surgical Care,2,2,No,11.0,Home,Yes,No
+2216,87,Male,Neurology,Seizure Disorder,1,0,No,3.0,Home,No,No
+2217,51,Female,Orthopedics,Knee Replacement,2,0,No,10.0,Rehab Facility,Yes,No
+2218,46,Female,Orthopedics,Spinal Surgery,13,4,Yes,6.0,Home,No,Yes
+2219,67,Male,Neurology,Stroke,10,0,Yes,12.0,Home Health Care,Yes,No
+2220,51,Female,Cardiology,Arrhythmia,11,0,Yes,8.0,Skilled Nursing Facility,Yes,No
+2221,35,Male,General Medicine,Pneumonia,14,2,No,7.0,Home,Yes,No
+2222,19,Male,Cardiology,Heart Failure,5,2,Yes,12.0,Rehab Facility,No,No
+2223,36,Female,General Medicine,Pneumonia,2,0,Yes,1.0,Home,No,Yes
+2224,86,Male,General Medicine,Pneumonia,3,0,No,12.0,Home,No,No
+2225,26,Male,Orthopedics,Spinal Surgery,14,0,No,6.0,Home,Yes,No
+2226,76,Male,Cardiology,Heart Failure,14,0,Yes,11.0,Skilled Nursing Facility,Yes,Yes
+2227,29,Female,Cardiology,Coronary Artery Disease,13,1,No,8.0,Home,No,No
+2228,39,Female,General Medicine,Diabetes Complication,13,0,No,9.0,Home,Yes,No
+2229,52,Male,Oncology,Post-Surgical Care,9,0,No,7.0,Home,No,No
+2230,42,Male,General Medicine,Diabetes Complication,10,2,Yes,11.0,Home,Yes,Yes
+2231,67,Male,Orthopedics,Knee Replacement,2,0,Yes,2.0,Rehab Facility,No,Yes
+2232,85,Female,Oncology,Chemotherapy Complication,14,0,No,8.0,Home Health Care,No,No
+2233,34,Female,General Medicine,Hypertension,3,0,No,9.0,Home,Yes,No
+2234,75,Male,Cardiology,Heart Failure,3,0,No,10.0,Home,Yes,No
+2235,28,Male,Oncology,Post-Surgical Care,10,1,Yes,14.0,Rehab Facility,No,Yes
+2236,58,Female,General Medicine,Diabetes Complication,13,1,No,2.0,Home,Yes,No
+2237,38,M,  cardiology ,Heart Failure,7,1,No,13.0,Skilled Nursing Facility,Yes,No
+2238,59,Male,Neurology,Migraine,7,1,No,,Home,Yes,No
+2239,60,Female,Cardiology,Coronary Artery Disease,8,2,Yes,3.0,Home,Yes,No
+2240,41,Male,Cardiology,Coronary Artery Disease,3,0,No,7.0,Home,Yes,No
+2241,84,Male,Neurology,Stroke,11,3,Yes,11.0,Rehab Facility,Yes,Yes
+2242,73,Male,Neurology,Migraine,11,2,No,5.0,Home,Yes,No
+2243,88,Male,Neurology,Stroke,8,2,No,11.0,Home,No,Yes
+2244,57,Male,Neurology,Seizure Disorder,13,3,No,12.0,Home,Yes,No
+2245,63,Male,General Medicine,Hypertension,7,1,No,1.0,Home Health Care,Yes,No
+2246,76,Female,General Medicine,Pneumonia,13,0,Yes,1.0,Home,No,Yes
+2247,87,Male,Oncology,Palliative Care,11,1,No,14.0,Rehab Facility,Yes,No
+2248,50,Female,Neurology,Migraine,9,2,No,9.0,Home Health Care,Yes,No
+2249,69,Female,Orthopedics,Spinal Surgery,4,2,Yes,2.0,Skilled Nursing Facility,Yes,No
+2250,27,Male,Cardiology,Heart Failure,14,2,No,6.0,Home,Yes,No
+2251,87,Female,Orthopedics,Spinal Surgery,14,1,No,4.0,Home,Yes,No
+2252,88,Female,Orthopedics,Spinal Surgery,4,0,Yes,2.0,Home Health Care,Yes,No
+2253,50,Female,Orthopedics,Spinal Surgery,8,2,No,10.0,Home Health Care,No,No
+2254,39,Female,Cardiology,Arrhythmia,10,1,No,12.0,Home,Yes,No
+2255,87,Male,Cardiology,Arrhythmia,9,1,Yes,12.0,Home Health Care,No,Yes
+2256,72,Male,Cardiology,Heart Failure,10,2,Yes,1.0,Home,Yes,No
+2257,78,Female,Cardiology,Heart Failure,4,1,No,5.0,Home,Yes,No
+2258,21,Female,Orthopedics,Spinal Surgery,6,2,Yes,9.0,Home Health Care,No,Yes
+2259,76,Male,Cardiology,Arrhythmia,7,1,No,9.0,Home,Yes,No
+2260,53,Female,Neurology,Seizure Disorder,1,0,Yes,11.0,Home,No,No
+2261,49,Female,Oncology,Palliative Care,14,2,No,12.0,Skilled Nursing Facility,Yes,No
+2262,32,Female,Oncology,Palliative Care,13,0,No,3.0,Home,No,No
+2263,84,Female,General Medicine,Hypertension,12,1,Yes,2.0,Home,Yes,No
+2264,71,Male,Oncology,Post-Surgical Care,4,2,Yes,7.0,Rehab Facility,Yes,Yes
+2265,34,Male,Oncology,Post-Surgical Care,14,3,No,1.0,Skilled Nursing Facility,No,Yes
+2266,62,Male,General Medicine,Hypertension,6,1,No,9.0,Home Health Care,No,No
+2267,89,Male,General Medicine,Pneumonia,6,1,No,13.0,Home,No,No
+2268,42,Female,Oncology,Chemotherapy Complication,9,0,Yes,12.0,Rehab Facility,Yes,No
+2269,80,Female,General Medicine,Diabetes Complication,13,0,No,9.0,Home Health Care,Yes,No
+2270,85,Male,Oncology,Chemotherapy Complication,7,0,Yes,12.0,Home,No,Yes
+2271,80,Female,Orthopedics,Knee Replacement,4,1,No,1.0,Home Health Care,No,No
+2272,74,Male,General Medicine,Pneumonia,9,3,No,4.0,Home Health Care,Yes,No
+2273,32,Female,General Medicine,Hypertension,11,0,Yes,7.0,Skilled Nursing Facility,Yes,No
+2274,38,Female,Orthopedics,Hip Fracture,2,2,Yes,9.0,Home,No,No
+2275,53,Male,General Medicine,Pneumonia,12,3,Yes,7.0,Home,Yes,No
+2276,64,Female,General Medicine,Pneumonia,12,1,Yes,3.0,Rehab Facility,No,No
+2277,33,Male,General Medicine,Pneumonia,12,0,No,,Rehab Facility,Yes,No
+2278,25,Female,Cardiology,Arrhythmia,9,0,Yes,12.0,Home Health Care,Yes,No
+2279,54,Female,Cardiology,Arrhythmia,12,1,Yes,9.0,Skilled Nursing Facility,No,Yes
+2280,76,Male,Oncology,Chemotherapy Complication,5,1,No,1.0,Home Health Care,No,No
+2281,89,Male,Orthopedics,Spinal Surgery,13,4,No,13.0,Home,Yes,No
+2282,86,Male,General Medicine,Pneumonia,13,3,Yes,10.0,Home,Yes,Yes
+2283,84,Female,Oncology,Chemotherapy Complication,14,0,No,13.0,Home,No,No
+2284,54,Male,Oncology,Chemotherapy Complication,5,1,No,3.0,Home,No,No
+2285,55,M,Cardiology,Coronary Artery Disease,9,2,No,1.0,Home,No,No
+2286,36,Female,Cardiology,Heart Failure,6,3,No,11.0,Home,No,No
+2287,41,Female,Cardiology,Arrhythmia,11,1,No,6.0,Skilled Nursing Facility,Yes,No
+2288,28,Male,Neurology,Stroke,2,2,Yes,12.0,Home Health Care,Yes,No
+2289,29,Female,Orthopedics,Spinal Surgery,11,0,No,3.0,Skilled Nursing Facility,Yes,No
+2290,46,Male,Orthopedics,Knee Replacement,6,0,No,5.0,Home Health Care,No,No
+2291,32,Female,General Medicine,Diabetes Complication,11,1,No,11.0,Home Health Care,Yes,No
+2292,41,Male,Oncology,Palliative Care,10,1,No,4.0,Home,Yes,No
+2293,76,Male,Oncology,Chemotherapy Complication,8,0,No,1.0,Home,Yes,No
+2294,36,Female,Oncology,Palliative Care,7,2,No,4.0,Home,No,No
+2295,28,Male,Neurology,Migraine,4,0,Yes,9.0,Home,Yes,No
+2296,86,Male,Cardiology,Coronary Artery Disease,11,0,No,2.0,Skilled Nursing Facility,Yes,No
+2297,28,Female,Cardiology,Coronary Artery Disease,7,2,No,6.0,Home,Yes,No
+2298,31,Male,Cardiology,Heart Failure,7,2,Yes,8.0,Home,Yes,No
+2299,85,Male,General Medicine,Pneumonia,14,3,No,6.0,Rehab Facility,Yes,No
+2300,60,Female,Oncology,Post-Surgical Care,2,2,Yes,7.0,Skilled Nursing Facility,Yes,No
+2301,35,Male,Oncology,Post-Surgical Care,1,3,No,8.0,Rehab Facility,Yes,No
+2302,45,Female,Cardiology,Heart Failure,9,0,No,,Home,Yes,No
+2303,83,Female,  cardiology ,Migraine,11,1,Yes,9.0,Home,Yes,No
+2304,74,Male,Neurology,Seizure Disorder,13,1,Yes,6.0,Skilled Nursing Facility,Yes,Yes
+2305,19,Male,General Medicine,Hypertension,7,2,No,3.0,Home,No,No
+2306,63,Female,Oncology,Palliative Care,14,0,Yes,1.0,Rehab Facility,Yes,No
+2307,65,Male,General Medicine,Hypertension,6,2,No,13.0,Home Health Care,Yes,No
+2308,37,Male,General Medicine,Pneumonia,11,0,Yes,12.0,Rehab Facility,Yes,No
+2309,29,Male,Orthopedics,Knee Replacement,3,2,Yes,2.0,Skilled Nursing Facility,Yes,No
+2310,66,Female,Orthopedics,Hip Fracture,9,1,No,5.0,Home,Yes,No
+2311,20,Female,Neurology,Migraine,2,1,No,3.0,Home,Yes,No
+2312,48,Male,General Medicine,Diabetes Complication,10,2,Yes,10.0,Home,No,Yes
+2313,49,Female,Orthopedics,Knee Replacement,7,1,No,11.0,Home,Yes,No
+2314,31,Male,General Medicine,Pneumonia,11,0,No,2.0,Home,No,No
+2315,27,Male,General Medicine,Pneumonia,10,0,Yes,11.0,Home,Yes,No
+2316,78,Male,Orthopedics,Spinal Surgery,4,1,Yes,9.0,Skilled Nursing Facility,Yes,No
+2317,60,Male,Oncology,Chemotherapy Complication,6,1,No,10.0,Home,No,No
+2318,63,Female,General Medicine,Hypertension,7,0,No,1.0,Home Health Care,No,No
+2319,48,Male,Neurology,Migraine,12,2,No,11.0,Home,Yes,No
+2320,50,Female,General Medicine,Diabetes Complication,3,1,No,14.0,Home,Yes,No
+2321,42,Female,General Medicine,Diabetes Complication,14,1,Yes,3.0,Rehab Facility,No,Yes
+2322,18,Male,General Medicine,Pneumonia,3,2,Yes,7.0,Home,No,Yes
+2323,32,Male,Neurology,Migraine,13,2,No,10.0,Rehab Facility,No,No
+2324,78,Male,Orthopedics,Knee Replacement,10,2,Yes,7.0,Skilled Nursing Facility,Yes,No
+2325,71,Male,Orthopedics,Hip Fracture,7,0,No,8.0,Home Health Care,Yes,No
+2326,21,Female,Cardiology,Arrhythmia,3,2,Yes,4.0,Home,Yes,No
+2327,18,Female,Oncology,Palliative Care,9,0,No,7.0,Home,Yes,No
+2328,54,Female,Orthopedics,Knee Replacement,12,2,No,6.0,Home,Yes,No
+2329,29,Male,Cardiology,Arrhythmia,11,1,Yes,14.0,Home,Yes,No
+2330,18,Male,Neurology,Stroke,2,0,No,7.0,Home,Yes,No
+2331,68,Female,Oncology,Palliative Care,3,1,Yes,8.0,Home,No,Yes
+2332,49,Female,Cardiology,Arrhythmia,8,2,No,12.0,Home,Yes,No
+2333,76,Male,General Medicine,Diabetes Complication,10,1,No,4.0,Home,Yes,No
+2334,72,Female,Cardiology,Heart Failure,7,1,No,3.0,Home,Yes,No
+2335,74,Female,Neurology,Migraine,2,2,No,12.0,Home,No,No
+2336,66,Male,Cardiology,Arrhythmia,10,2,Yes,2.0,Home Health Care,Yes,No
+2337,84,Female,Orthopedics,Hip Fracture,11,3,No,4.0,Home,Yes,No
+2338,70,Female,Cardiology,Coronary Artery Disease,1,0,Yes,13.0,Home Health Care,Yes,No
+2339,85,Female,Neurology,Migraine,14,2,Yes,11.0,Home,No,Yes
+2340,78,Female,Cardiology,Heart Failure,4,3,Yes,2.0,Home,Yes,No
+2341,40,Male,Orthopedics,Hip Fracture,11,1,No,14.0,Home Health Care,Yes,No
+2342,66,Female,Neurology,Seizure Disorder,9,1,No,6.0,Home,Yes,No
+2343,39,Male,General Medicine,Hypertension,8,0,No,6.0,Rehab Facility,No,No
+2344,87,Male,Cardiology,Heart Failure,13,1,No,3.0,Skilled Nursing Facility,No,Yes
+2345,19,Male,Orthopedics,Hip Fracture,1,0,Yes,6.0,Home,No,No
+2346,54,Female,Oncology,Chemotherapy Complication,2,0,Yes,1.0,Skilled Nursing Facility,Yes,No
+2347,40,Male,Neurology,Stroke,9,0,No,11.0,Rehab Facility,No,No
+2348,27,Female,Oncology,Palliative Care,5,0,Yes,3.0,Home,Yes,No
+2349,47,Male,Orthopedics,Knee Replacement,12,3,Yes,1.0,Home,Yes,No
+2350,89,M,Cardiology,Arrhythmia,3,2,No,3.0,Home Health Care,No,No
+2351,22,Male,Neurology,Migraine,13,0,Yes,6.0,Home Health Care,Yes,No
+2352,26,Male,General Medicine,Diabetes Complication,11,1,No,4.0,Skilled Nursing Facility,No,Yes
+2353,55,Female,Cardiology,Arrhythmia,9,3,No,7.0,Home,Yes,Yes
+2354,19,Female,Cardiology,Coronary Artery Disease,9,0,Yes,13.0,Home,Yes,No
+2355,31,Male,  cardiology ,Arrhythmia,13,1,No,11.0,Home,Yes,No
+2356,55,Female,  cardiology ,Seizure Disorder,8,1,No,11.0,Home,No,No
+2357,62,Male,General Medicine,Hypertension,5,1,Yes,9.0,Home,No,No
+2358,40,Male,Cardiology,Coronary Artery Disease,9,0,Yes,9.0,Home,Yes,No
+2359,74,Male,Cardiology,Coronary Artery Disease,10,1,No,12.0,Home Health Care,Yes,No
+2360,59,Male,Oncology,Palliative Care,10,0,Yes,2.0,Home,Yes,No
+2361,50,Male,General Medicine,Diabetes Complication,10,0,No,11.0,Home,Yes,No
+2362,50,Female,Oncology,Post-Surgical Care,8,0,Yes,14.0,Home,Yes,No
+2363,58,Male,Orthopedics,Spinal Surgery,14,2,Yes,10.0,Skilled Nursing Facility,Yes,Yes
+2364,27,Male,Neurology,Stroke,10,1,No,11.0,Skilled Nursing Facility,Yes,No
+2365,54,Male,Cardiology,Heart Failure,8,1,No,6.0,Rehab Facility,No,Yes
+2366,28,Female,Oncology,Chemotherapy Complication,4,2,No,4.0,Home,No,No
+2367,39,Female,Oncology,Chemotherapy Complication,4,3,No,9.0,Home,No,No
+2368,70,Female,Orthopedics,Spinal Surgery,14,1,Yes,11.0,Home Health Care,No,Yes
+2369,35,Female,General Medicine,Hypertension,4,1,No,8.0,Home Health Care,No,No
+2370,53,M,Oncology,Post-Surgical Care,14,1,No,4.0,Rehab Facility,No,No
+2371,34,Female,Orthopedics,Hip Fracture,10,0,Yes,3.0,Home,Yes,No
+2372,73,Female,General Medicine,Hypertension,3,1,No,5.0,Home Health Care,Yes,No
+2373,20,Male,Neurology,Seizure Disorder,14,0,No,7.0,Home,Yes,No
+2374,61,Male,Neurology,Seizure Disorder,9,2,No,7.0,Skilled Nursing Facility,No,No
+2375,23,M,Neurology,Migraine,2,3,No,9.0,Rehab Facility,Yes,No
+2376,87,Female,General Medicine,Hypertension,12,0,No,6.0,Skilled Nursing Facility,Yes,No
+2377,51,Female,Orthopedics,Spinal Surgery,10,2,No,9.0,Skilled Nursing Facility,Yes,No
+2378,45,Male,Oncology,Chemotherapy Complication,8,1,No,12.0,Home,Yes,No
+2379,68,Female,General Medicine,Hypertension,8,1,Yes,3.0,Skilled Nursing Facility,Yes,Yes
+2380,63,Male,Cardiology,Heart Failure,14,1,No,7.0,Home,Yes,No
+2381,68,Female,Cardiology,Heart Failure,4,1,No,14.0,Home,Yes,No
+2382,60,Female,Orthopedics,Hip Fracture,11,1,Yes,13.0,Home,Yes,No
+2383,47,Female,General Medicine,Pneumonia,6,2,No,9.0,Home,Yes,No
+2384,26,Male,Orthopedics,Hip Fracture,2,1,No,10.0,Home Health Care,No,No
+2385,52,Female,Orthopedics,Spinal Surgery,7,2,Yes,3.0,Home,No,Yes
+2386,66,Female,General Medicine,Hypertension,6,2,No,11.0,Home,Yes,No
+2387,61,Male,Orthopedics,Hip Fracture,9,1,No,14.0,Home,No,Yes
+2388,62,Female,General Medicine,Hypertension,10,2,No,3.0,Home,Yes,No
+2389,50,Male,Neurology,Migraine,13,1,Yes,2.0,Home Health Care,Yes,No
+2390,73,Male,General Medicine,Pneumonia,3,1,No,9.0,Skilled Nursing Facility,No,No
+2391,44,Male,Orthopedics,Spinal Surgery,13,0,Yes,14.0,Rehab Facility,No,Yes
+2392,31,Female,General Medicine,Diabetes Complication,13,1,Yes,10.0,Home,No,Yes
+2393,36,Male,Cardiology,Coronary Artery Disease,7,0,No,10.0,Home Health Care,Yes,No
+2394,27,Male,General Medicine,Hypertension,12,0,No,4.0,Skilled Nursing Facility,No,No
+2395,77,Male,General Medicine,Hypertension,6,1,Yes,2.0,Skilled Nursing Facility,Yes,No
+2396,31,Male,Oncology,Post-Surgical Care,10,1,No,11.0,Home,Yes,No
+2397,53,Female,Cardiology,Arrhythmia,9,2,No,9.0,Home Health Care,Yes,No
+2398,68,Female,Cardiology,Coronary Artery Disease,3,0,Yes,7.0,Rehab Facility,Yes,No
+2399,67,Male,Orthopedics,Hip Fracture,13,1,Yes,3.0,Home Health Care,Yes,No
+2400,38,Female,Neurology,Migraine,14,0,Yes,11.0,Home Health Care,Yes,Yes
+2401,36,Male,Orthopedics,Knee Replacement,2,3,No,1.0,Home,Yes,No
+2402,66,Female,Orthopedics,Spinal Surgery,6,2,Yes,4.0,Home,Yes,No
+2403,31,Male,General Medicine,Hypertension,5,0,No,14.0,Home,Yes,No
+2404,42,Male,Cardiology,Coronary Artery Disease,14,0,Yes,2.0,Home,No,Yes
+2405,74,Female,Oncology,Post-Surgical Care,8,0,No,13.0,Skilled Nursing Facility,Yes,No
+2406,50,Female,General Medicine,Diabetes Complication,2,1,No,1.0,Home,No,Yes
+2407,85,Female,Cardiology,Arrhythmia,9,3,No,7.0,Skilled Nursing Facility,Yes,No
+2408,39,Female,Cardiology,Heart Failure,5,1,No,6.0,Home,No,No
+2409,62,Female,Oncology,Post-Surgical Care,6,3,No,12.0,Home Health Care,No,No
+2410,47,Male,Orthopedics,Knee Replacement,4,1,Yes,9.0,Home,No,No
+2411,36,Female,Orthopedics,Knee Replacement,11,0,No,1.0,Home,Yes,No
+2412,56,Male,Cardiology,Heart Failure,3,3,No,2.0,Home,No,No
+2413,77,M,General Medicine,Pneumonia,5,2,No,6.0,Home,Yes,No
+2414,88,Female,Oncology,Palliative Care,10,0,No,14.0,Home,No,No
+2415,77,Female,Cardiology,Arrhythmia,2,1,No,3.0,Home,Yes,No
+2416,75,Male,Orthopedics,Knee Replacement,1,0,No,3.0,Skilled Nursing Facility,No,No
+2417,62,Male,Orthopedics,Knee Replacement,8,3,No,3.0,Home,Yes,No
+2418,45,Female,General Medicine,Hypertension,6,1,No,4.0,Skilled Nursing Facility,Yes,No
+2419,56,Male,Orthopedics,Hip Fracture,3,1,No,12.0,Rehab Facility,Yes,No
+2420,35,Female,Cardiology,Coronary Artery Disease,12,1,Yes,5.0,Home,No,Yes
+2379,68,Female,General Medicine,Hypertension,8,1,Yes,3.0,Skilled Nursing Facility,Yes,Yes
+2166,82,Male,General Medicine,Diabetes Complication,10,1,Yes,7.0,Home,Yes,No
+2018,71,Female,Cardiology,Coronary Artery Disease,13,0,Yes,10.0,Skilled Nursing Facility,No,Yes
+2180,62,M,General Medicine,Pneumonia,11,1,Yes,6.0,Home Health Care,No,Yes
+2005,71,Male,General Medicine,Diabetes Complication,3,3,No,12.0,Home,Yes,No
+2250,27,Male,Cardiology,Heart Failure,14,2,No,,Home,Yes,No
+2214,79,Male,General Medicine,Diabetes Complication,13,1,Yes,13.0,Home Health Care,Yes,No
